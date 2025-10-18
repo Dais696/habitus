@@ -1,0 +1,49 @@
+Base de Datos Habitus
+tablas:                               cubierta en la base de datos:
+Usuario                               SI
+Perfil de Salud                       SI
+condiciones medicas                   NO
+preferencias de ejercicio             NO
+preferencias alimentación             NO
+notificaciones                        NO
+
+------------------------------------------------------------------------
+
+DATABASE HabitusDB;
+
+-- =================================================================
+-- TABLAS DE CATÁLOGO (La Fuente Única de la Verdad)
+-- =================================================================
+ 
+Cat_Objetivos
+Cat_Tipo_Dieta
+Cat_Equipo 
+Cat_Tipos_Notificacion
+Cat_Alergias_Alimentarias
+Cat_Enfermedades
+Cat_Limitaciones_Fisicas
+Cat_Grupos_Musculares
+Cat_Ejercicios
+Cat_Ingredientes
+Cat_Recetas
+
+-- =================================================================
+-- TABLAS DE DATOS DEL USUARIO
+-- =================================================================
+
+Usuarios
+Perfil_Salud
+Preferencias 
+Notificaciones
+
+-- =================================================================
+-- TABLAS DE UNIÓN (Conectan al usuario con múltiples opciones)
+-- =================================================================
+
+Usuario_Alergias 
+Usuario_Enfermedades
+Usuario_Limitaciones
+Usuario_Equipos 
+Usuario_dias_Disponibles
+Usuario_Ejercicios_Preferidos
+Receta_Ingredientes
