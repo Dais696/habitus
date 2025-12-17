@@ -7,7 +7,10 @@ Este repositorio contiene el Sprint 1 del proyecto: funcionalidades de registro,
 - Firebase Authentication
 - Firebase Functions (opcional)
 
-## Scripts
+
+ 
+## Scripts de Karlos
+
 ```bash
 cd mobile
 npm install
